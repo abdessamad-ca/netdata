@@ -1,2 +1,0 @@
-# netdata
-moniti serveer vps
