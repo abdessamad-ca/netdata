@@ -1,9 +1,9 @@
 version: '3'
 services:
   netdata:
-    image: netdata/netdata:v2.4.0
+    image: netdata/netdata:latest
     container_name: netdata
-    hostname: example.com
+    hostname: netdata.cool.apli.space
     ports:
       - 19999:19999
     restart: unless-stopped
