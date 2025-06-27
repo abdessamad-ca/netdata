@@ -1,7 +1,7 @@
 version: '3'
 services:
   netdata:
-    image: netdata/netdata:latest 
+    image: netdata/netdata:v2.4.0
     container_name: netdata
     hostname: example.com
     ports:
