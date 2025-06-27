@@ -3,7 +3,7 @@ services:
   netdata:
     image: netdata/netdata:latest
     container_name: netdata
-    hostname: netdata.cool.apli.space
+    hostname: example.com
     ports:
       - 19999:19999
     restart: unless-stopped
